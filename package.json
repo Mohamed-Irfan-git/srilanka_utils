@@ -1,6 +1,6 @@
 {
   "name": "srilanka_utils", 
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Small helpers for Sri Lanka: NIC, phone, LKR formatting, Sinhala/Tamil date formatting",
   "main": "index.js",
   "types": "index.d.ts",
