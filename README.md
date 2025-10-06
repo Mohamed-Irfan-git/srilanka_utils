@@ -23,7 +23,6 @@ npm install srilanka_utils
 
 ##Usage
 
-```bash
 // Import functions
 const { 
   isValidNic, 
