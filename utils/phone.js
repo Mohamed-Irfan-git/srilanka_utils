@@ -1,6 +1,7 @@
 const operatorMap = {
-    "070": "Dialog",
-    "071" : "Mobitel",
+    "070": "Mobitel",
+    "071": "Mobitel",
+    "072": "Hutch",
     "074": "Dialog",
     "075": "Airtel",
     "076": "Dialog",

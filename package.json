@@ -21,7 +21,7 @@
 },
 
   "keywords": ["sri-lanka","lkr","nic","phone","sinhala","tamil","utils"],
-  "author": "Mohamed Irfan <irfanmt29@gmail.com>",
+  "author": "mohamed_irfan <irfanmt29@gmail.com>",
   "license": "MIT",
   "engines": {
     "node": ">=12"
