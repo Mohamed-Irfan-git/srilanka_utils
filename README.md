@@ -19,10 +19,12 @@
 
 ```bash
 npm install srilanka_utils
+```
+
+## Usage
 
 
-##Usage
-
+``` bash
 // Import functions
 const { 
   isValidNic, 
@@ -48,11 +50,12 @@ console.log(formatCurrency(15000)); // Rs. 15,000.00
 // Date formatting
 console.log(formatSinhalaDate('2025-10-06')); // 6 ඔක්තෝබර් 2025
 console.log(formatTamilDate('2025-10-06'));   // 6 அக்டோபர் 2025
+```
 
 
-##API
+## API
 
-
+``` bash
 | Function                  | Description                           | Example                                              |
 | ------------------------- | ------------------------------------- | ---------------------------------------------------- |
 | `isValidNic(nic)`         | Validate old or new Sri Lankan NIC    | `isValidNic('123456789V') // true`                   |
@@ -62,7 +65,8 @@ console.log(formatTamilDate('2025-10-06'));   // 6 அக்டோபர் 2025
 | `formatSinhalaDate(date)` | Convert date to Sinhala format        | `formatSinhalaDate('2025-10-06') // 6 ඔක්තෝබර් 2025` |
 | `formatTamilDate(date)`   | Convert date to Tamil format          | `formatTamilDate('2025-10-06') // 6 அக்டோபர் 2025`   |
 
+```
 
-##License
+## License
 
 MIT License © Mohamed Irfan
