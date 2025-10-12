@@ -25,7 +25,6 @@ npm install srilanka_utils
 
 
 ``` bash
-// Import functions
 const { 
   isValidNic, 
   isValidPhone, 
@@ -35,37 +34,33 @@ const {
   formatTamilDate 
 } = require('srilanka_utils');
 
-// NIC validation
-console.log(isValidNic('123456789V')); // true
-console.log(isValidNic('200012345678')); // true
+console.log(isValidNic('123456789V')); 
+console.log(isValidNic('200012345678'));
 console.log(isValidNic('foo')); // false
 
-// Phone validation
-console.log(isValidPhone('0771234567')); // true
-console.log(getOperator('0771234567')); // Dialog
+console.log(isValidPhone('0771234567')); 
+console.log(getOperator('0771234567')); 
 
-// Currency formatting
-console.log(formatCurrency(15000)); // Rs. 15,000.00
+console.log(formatCurrency(15000)); //
 
-// Date formatting
-console.log(formatSinhalaDate('2025-10-06')); // 6 ඔක්තෝබර් 2025
-console.log(formatTamilDate('2025-10-06'));   // 6 அக்டோபர் 2025
+console.log(formatSinhalaDate('2025-10-06')); 
+console.log(formatTamilDate('2025-10-06'));   
 ```
 
 
 ## API
 
-``` bash
+
 | Function                  | Description                           | Example                                              |
 | ------------------------- | ------------------------------------- | ---------------------------------------------------- |
-| `isValidNic(nic)`         | Validate old or new Sri Lankan NIC    | `isValidNic('123456789V') // true`                   |
-| `isValidPhone(phone)`     | Validate Sri Lankan phone number      | `isValidPhone('0771234567') // true`                 |
-| `getOperator(phone)`      | Get mobile operator from phone prefix | `getOperator('0771234567') // Dialog`                |
-| `formatCurrency(amount)`  | Format number as LKR                  | `formatCurrency(15000) // Rs. 15,000.00`             |
-| `formatSinhalaDate(date)` | Convert date to Sinhala format        | `formatSinhalaDate('2025-10-06') // 6 ඔක්තෝබර් 2025` |
-| `formatTamilDate(date)`   | Convert date to Tamil format          | `formatTamilDate('2025-10-06') // 6 அக்டோபர் 2025`   |
+| `isValidNic(nic)`         | Validate old or new Sri Lankan NIC    | `isValidNic('123456789V')  true`                     |
+| `isValidPhone(phone)`     | Validate Sri Lankan phone number      | `isValidPhone('0771234567')  true`                   |
+| `getOperator(phone)`      | Get mobile operator from phone prefix | `getOperator('0771234567')  Dialog`                  |
+| `formatCurrency(amount)`  | Format number as LKR                  | `formatCurrency(15000)  Rs. 15,000.00`               |
+| `formatSinhalaDate(date)` | Convert date to Sinhala format        | `formatSinhalaDate('2025-10-06')  6 ඔක්තෝබර් 2025`  | 
+| `formatTamilDate(date)`   | Convert date to Tamil format          | `formatTamilDate('2025-10-06')  6 அக்டோபர் 2025`    |
 
-```
+
 
 ## License
 
