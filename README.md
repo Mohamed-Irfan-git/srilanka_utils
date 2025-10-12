@@ -36,12 +36,12 @@ const {
 
 console.log(isValidNic('123456789V')); 
 console.log(isValidNic('200012345678'));
-console.log(isValidNic('foo')); // false
+console.log(isValidNic('foo')); 
 
 console.log(isValidPhone('0771234567')); 
 console.log(getOperator('0771234567')); 
 
-console.log(formatCurrency(15000)); //
+console.log(formatCurrency(15000)); 
 
 console.log(formatSinhalaDate('2025-10-06')); 
 console.log(formatTamilDate('2025-10-06'));   
